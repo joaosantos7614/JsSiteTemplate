@@ -37,9 +37,36 @@ main>.container {
     margin-bottom: 5rem;
 }
 
+code[class*="language-"],   
+    pre[class*="language-"] {
+        white-space: pre-wrap;
+        word-break: break-all;
+        word-wrap: break-word;
+        }
+
 .sticky-nav {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100 %;
+    width: 100%;
+}
+
+.bsicon{
+    color:#563d7c;
+}
+
+.jsicon{
+    color:#f0db4f ;
+}
+
+.html5icon{
+    color:#f06529;
+}
+
+.cssicon{
+    color: 	#264de4;
+}
+
+.checklist >li i{
+    color: var(--secondary-color);
 }
